@@ -483,7 +483,7 @@ async def report(bot, message):
     k = await message.reply_sticker("CAACAgUAAxkBAAEEA7liG48lVnCeDRa7XS6ljHR9c08VsQACqQADyJRkFOv8RlMxwyrKIwQ", reply_markup=reply_markup)
     await asyncio.sleep(20)
     await k.delete()
-    await msg.delete()
+    await message.delete()
     return
 
 @Client.on_message(filters.command('set_template'))
