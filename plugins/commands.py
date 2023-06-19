@@ -467,24 +467,6 @@ async def settings(client, message):
         )
 
 
-@Client.on_message(
-    (
-        filters.command(["report"]) |
-        filters.regex("@admins") |
-        filters.regex("@admin")
-    ) &
-    filters.group
-)
-async def report(bot, message):
-    buttons = [[
-        InlineKeyboardButton('✅ ʀᴇᴘᴏʀᴛ ꜱᴇɴᴅ ✅', callback_data='close_data')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    k = await message.reply_sticker("CAACAgUAAxkBAAEEA7liG48lVnCeDRa7XS6ljHR9c08VsQACqQADyJRkFOv8RlMxwyrKIwQ", reply_markup=reply_markup)
-    await asyncio.sleep(20)
-    await k.delete()
-    await message.delete()
-    return
 
 @Client.on_message(filters.command('set_template'))
 async def save_template(client, message):
