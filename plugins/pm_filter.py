@@ -457,8 +457,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs ⚡️', callback_data='start')
             ],[
-            InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='about'),
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
+            InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='onwer'),
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', callback_data='onwer')
             ],[
             InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/CLMLinkz'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ', callback_data='close_data')
@@ -474,7 +474,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
        )
-    elif query.data == "about":
+    elif query.data == "onwer":
         buttons = [[
             InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
             ],[
