@@ -514,7 +514,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answe("⛥ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ\n\n⛥ρℓα¢є : ᴘᴀʟᴀ | ᴋᴏᴛᴛᴀʏᴀᴍ\n\n⛥ ᴀ ʜꜱꜱ ꜱᴛᴜᴅᴇɴᴛ\n\n⛥ѕкιℓℓѕ : ᴄᴏᴅᴇ ᴇᴅɪᴛɪɴɢ\n\n⛥мʏ вσтѕ : @ɢᴛᴅᴜʟҩᴜᴀʀʙᴏᴛ\n\n⛥¢αт¢н мє νια : @ɢᴛʜᴇʀᴏᴛɢx", show_alert=True)
         
     elif query.data == "ajtgpm":
-        await query.answer("📵 ᴄᴏɴᴛᴀᴄᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\n- ꜱᴇᴄᴛɪᴏɴ B206 - ꜱᴘᴀᴍ + ʙᴀɴ ⚠️\n\n- ꜱᴇᴄᴛɪᴏɴ Y8R6 - ꜱᴘᴀᴍ + ʀᴇᴘᴏʀᴛ 🉐\n\n🗽 ʙʏ ◉‿◉ ɢᴛ ᠰ ʜᴇʀᴏ", show_alert=True)
+        await query.answer("📵 ᴄᴏɴᴛᴀᴄᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\n- ꜱᴇᴄᴛɪᴏɴ B206 - ꜱᴘᴀᴍ + ʙᴀɴ ⚠️\n\n- ꜱᴇᴄᴛɪᴏɴ Y8R6 - ꜱᴘᴀᴍ + ʀᴇᴘᴏʀᴛ 🉐\n\n🗽 ʙʏ ◉‿◉ 𝐀𝐉 𝐓𝐆", show_alert=True)
         
     elif query.data == "movieinfo":
         await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 30 ᴍɪɴᴜᴛᴇᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n© ᴍᴏᴠɪᴇʜᴜʙ", show_alert=True)
@@ -743,7 +743,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}\n┣ ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴅᴜʟǫᴜʀ](https://t.me/GTDulquarbot)\n┗ 🍁 ᴄʜᴀɴɴᴇʟ : [ᴄɪɴɪᴍᴀʟᴏᴋʜᴀᴍ](https://t.me/CLMlinkz)\n\nᴀꜰᴛᴇʀ 30 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n<i>★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  [ᴄɪɴɪᴍᴀʟᴏᴋʜᴀᴍ](https://t.me/Cinimalokham)</i></b>"
+        cap = f"<b>🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅ ʙʏ : {message.from_user.mention}\n┣ ⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴊᴏʜɴʏ](https://t.me/MHMOVIEBOT)\n┗ 🍁 ᴄʜᴀɴɴᴇʟ : [ᴍᴏᴠɪᴇʜᴜʙ](https://t.me/moviehubottupdates)\n\nᴀꜰᴛᴇʀ 30 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n<i>★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  [ᴍᴏᴠɪᴇʜᴜʙ](https://t.me/moviehub_support)</i></b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
