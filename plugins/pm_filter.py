@@ -511,7 +511,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "gtheroabout":
-        await query.answe("⛥ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ\n\n⛥ρℓα¢є : ᴘᴀʟᴀ | ᴋᴏᴛᴛᴀʏᴀᴍ\n\n⛥ ᴀ ʜꜱꜱ ꜱᴛᴜᴅᴇɴᴛ\n\n⛥ѕкιℓℓѕ : ᴄᴏᴅᴇ ᴇᴅɪᴛɪɴɢ\n\n⛥мʏ вσтѕ : @ɢᴛᴅᴜʟҩᴜᴀʀʙᴏᴛ\n\n⛥¢αт¢н мє νια : @ɢᴛʜᴇʀᴏᴛɢx", show_alert=True)
+        await query.answer("⛥ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ\n\n⛥ρℓα¢є : ᴘᴀʟᴀ | ᴋᴏᴛᴛᴀʏᴀᴍ\n\n⛥ ᴀ ʜꜱꜱ ꜱᴛᴜᴅᴇɴᴛ\n\n⛥ѕкιℓℓѕ : ᴄᴏᴅᴇ ᴇᴅɪᴛɪɴɢ\n\n⛥мʏ вσтѕ : @ɢᴛᴅᴜʟҩᴜᴀʀʙᴏᴛ\n\n⛥¢αт¢н мє νια : @ɢᴛʜᴇʀᴏᴛɢx", show_alert=True)
         
     elif query.data == "ajtgpm":
         await query.answer("📵 ᴄᴏɴᴛᴀᴄᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\n- ꜱᴇᴄᴛɪᴏɴ B206 - ꜱᴘᴀᴍ + ʙᴀɴ ⚠️\n\n- ꜱᴇᴄᴛɪᴏɴ Y8R6 - ꜱᴘᴀᴍ + ʀᴇᴘᴏʀᴛ 🉐\n\n🗽 ʙʏ ◉‿◉ 𝐀𝐉 𝐓𝐆", show_alert=True)
