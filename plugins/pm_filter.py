@@ -487,7 +487,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/ee19a2739a0a082b0ca9a.jpg")
+            InputMediaPhoto("https://graph.org/file/511b91c9fc41f20ded678.jpg")
         )
         await query.message.edit_text(
             text=script.OWNER_TXT,
