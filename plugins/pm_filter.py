@@ -480,7 +480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
             ],[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', callback_data='ajtgopm'),
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ', callback_data='ajtgpm'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -641,7 +641,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Cɪɴɪᴍᴀʟᴏᴋʜᴀᴍ')
+    await query.answer('Mᴏᴠɪᴇʜᴜʙ')
 
 
 async def auto_filter(client, msg, spoll=False):
