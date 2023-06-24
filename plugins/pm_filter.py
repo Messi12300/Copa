@@ -460,7 +460,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='onwer'),
             InlineKeyboardButton('👼 ᴄᴏ - ∂єν ᴺᵒᵒᵇ', callback_data='about')
             ],[
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/moviehub_support')
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/moviehub_support'),
             InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ', url='https://t.me/moviehubottupdates')
             ],[
             InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏꜱᴇ ʙᴜᴛᴛᴏɴꜱ', callback_data='close_data')
