@@ -6,7 +6,7 @@ class script(object):
     
 <b>• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝐀𝐉 𝐓𝐆</b>
 <b>• Uꜱᴇʀ ɴᴀᴍᴇ : @at_xu_l07
-• Usᴇʀ ɪᴅ :<b> <code>5283019077</code>
+• Usᴇʀ ɪᴅ :<b> <code>54313116807</code>
     
 <b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
     """
@@ -16,7 +16,8 @@ class script(object):
 <b>• ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ
 • υѕєя ηαмє : @GTHero
 • υѕєя ι∂ :</b> <code>5283019077</code>
-
+<b>• ιηѕтαgяαм :</b> <b><a href=https://instagram.com/_gthero_?igshid=NGExMmI2YTkyZg==>ℓιηк</a></b>
+  
 <b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
     """
     
