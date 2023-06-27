@@ -1,22 +1,15 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {}</b>
+    START_TXT = """<b>Hᴇʟʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
+    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-<b>Sᴏʀʀʏ ɪ ᴏɴʟʏ ᴡᴏʀᴋ ᴏɴ</b> <b><a href=https://t.me/moviehub_support>Mᴏᴠɪᴇʜᴜʙ</a></b><b> Gʀᴏᴜᴘ. Nᴏ ᴏᴛʜᴇʀ ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴛʜɪs ʙᴏᴛ ᴇxᴄᴇᴘᴛ sᴛᴀʀᴛ. ᴅᴏɴ’ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ</b>"""
-    OWNER_TXT = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
-    
-<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝐀𝐉 𝐓𝐆</b>
-<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @at_xu_l07
-• Usᴇʀ ɪᴅ :</b> <code>54313116807</code>
-    
-<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
-    """
+• TG ɴᴀᴍᴇ : ᵐʳ𝐔𝐧𝐤𝐧𝐨𝐰𝐧🎭
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MC_Adminser_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     ABOUT_TXT = """<b>৫ αвσυт ∂єν ৫</b>
 
-<b>• ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ
-• υѕєя ηαмє : @GTHero
-• υѕєя ι∂ :</b> <code>5283019077</code>
-<b>• ιηѕтαgяαм :</b> <b><a href=https://instagram.com/_gthero_?igshid=NGExMmI2YTkyZg==>ℓιηк</a></b>
+<b>• ηαмє : ᵐʳ𝐔𝐧𝐤𝐧𝐨𝐰𝐧🎭
+• υѕєя ηαмє : @MC_Adminser_bot 🎭
   
 <b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
     """
@@ -40,17 +33,9 @@ class script(object):
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
+    SOURCES_TXT = """ɴᴏᴛᴇ: എല്ലാവർക്കും കിട്ടും 😂👌"""
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a>
-
-- & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
-
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
-
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
-
-- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+    SOURCE_TXT = """😁"""
 
     FONT_TXT = """I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
 
