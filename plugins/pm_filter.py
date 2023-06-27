@@ -445,6 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
+            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡', callback_data='help')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -511,7 +512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "gtheroabout":
-        await query.answer("⛥ηαмє : ɢᴛ ᠰ ʜᴇʀᴏ\n\n⛥ρℓα¢є : ᴘᴀʟᴀ | ᴋᴏᴛᴛᴀʏᴀᴍ\n\n⛥ ᴀ ʜꜱꜱ ꜱᴛᴜᴅᴇɴᴛ\n\n⛥ѕкιℓℓѕ : ᴄᴏᴅᴇ ᴇᴅɪᴛɪɴɢ\n\n⛥мʏ вσтѕ : @ɢᴛᴅᴜʟҩᴜᴀʀʙᴏᴛ\n\n⛥¢αт¢н мє νια : @ɢᴛʜᴇʀᴏᴛɢx", show_alert=True)
+        await query.answer("⛥ηαмє : ᵐʳ𝐔𝐧𝐤𝐧𝐨𝐰𝐧🎭\n\n⛥ρℓα¢є : THRISSUR\n\n⛥ѕкιℓℓѕ : ᴄᴏᴅᴇ ᴇᴅɪᴛɪɴɢ\n\n⛥¢αт¢н мє νια : @MC_Adminser_bot", show_alert=True)
         
     elif query.data == "ajtgpm":
         await query.answer("📵 ᴄᴏɴᴛᴀᴄᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\n- ꜱᴇᴄᴛɪᴏɴ B206 - ꜱᴘᴀᴍ + ʙᴀɴ ⚠️\n\n- ꜱᴇᴄᴛɪᴏɴ Y8R6 - ꜱᴘᴀᴍ + ʀᴇᴘᴏʀᴛ 🉐\n\n🗽 ʙʏ ◉‿◉ MC ", show_alert=True)
