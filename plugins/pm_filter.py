@@ -762,12 +762,12 @@ async def auto_filter(client, msg, spoll=False):
             await msg.delete()
         except Exception as e:
             logger.exception(e)
-            p=await message.reply_photo(photo='https://telegra.ph/file/5b955017ee87740cd3dac.jpg',caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            p=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(600)
             await p.delete()
             await msg.delete()
     else:
-        i=await message.reply_photo(photo='https://telegra.ph/file/5b955017ee87740cd3dac.jpg', caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        i=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(600)
         await i.delete()
         await msg.delete()
