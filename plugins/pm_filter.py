@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ 🤣ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡', callback_data='help')
+            InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ꜰᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡', callback_data='help')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -457,8 +457,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
        )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('👾 ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs 👾', callback_data='start')
-            ],[
             InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='onwer'),
             InlineKeyboardButton('👼 ᴄᴏ - ∂єν ᴺᵒᵒᵇ', callback_data='about')
             ],[
@@ -489,7 +487,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/5b955017ee87740cd3dac.jpg")
+            InputMediaPhoto("https://te.legra.ph/file/8c9c21bc754f052bee8a4.jpg")
         )
         await query.message.edit_text(
             text=script.OWNER_TXT,
@@ -505,7 +503,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/5b955017ee87740cd3dac.jpg")
+            InputMediaPhoto("https://te.legra.ph/file/8c9c21bc754f052bee8a4.jpg")
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
