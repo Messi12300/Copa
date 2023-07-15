@@ -14,6 +14,7 @@ from typing import Union
 import re
 import os
 from datetime import datetime
+from database.join_reqs import JoinReqs as db2
 from typing import List
 from database.users_chats_db import db
 from bs4 import BeautifulSoup
