@@ -762,9 +762,7 @@ async def auto_filter(client, msg, spoll=False):
             await asyncio.sleep(900)
             await t.delete()
     else:
-        y=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(900)
-        await y.delete()
+        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
         await msg.message.delete()
 
